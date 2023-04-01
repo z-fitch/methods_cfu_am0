@@ -44,6 +44,19 @@ puts first_name.start_with?("J")
 
 
 
+first_name = "Zanna"
+job_status = "Unemployed"
+
+# The .concat method is called on the first_name variable, after being called it adds the arguments to the end of the variable string. In this case, the return value will be
+# Zanna Fitch, she/her BE. 
+puts first_name.concat(' Fitch', ', she/her', ' BE')
+
+# The .replace method is called on the job_status variable and replaces the assigned string with the assigned arguement. In this case this would return 
+#Unemployed
+#Employed
+puts job_status
+puts job_status.replace("Employed")
+
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
