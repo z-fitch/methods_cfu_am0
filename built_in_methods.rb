@@ -1,6 +1,7 @@
 # SECTION 1: Calling methods on string or integer objects.
 # Run each line of code below (either from this file or in IRB individually).
-# Then, in a ruby comment, write 1-2 sentences describing what is happening, using ALL the involved vocabulary terms you've learned in this lesson so far.
+# Then, in a ruby comment, write 1-2 sentences describing what is happening, using ALL the involved vocabulary terms you've 
+#learned in this lesson so far.
 
 # EXAMPLE
 # The downcase method is called on the string object "Hello World"
@@ -10,19 +11,21 @@
 
 
 "Hello World".include?("Hello")
-
+#The .include? methods is being called on the "Hello World" string, the .include? is searching the string to check if any part of it includes "Hello"
+#The arguemnt "Hello" is being passed; The return value is 'true'
 
 "Hello World".end_with?("Hello")
-
+#The .end_with? method is being called using the argument "Hello" on the "Hello World" string. This method is checking if the string object ends with 'hello'
+#The argument "hello" is being passed, The return value is false. 
 
 "Hello World".end_with?("rld")
-
+#This .end_with? is checking the string object "Hello World" to check if the string ends with 'rld'. The arguemnt 'rld' is being passed, the return value is true.
 
 12.even?
-
+#The .even? method is checking if the integer is even. The return value is true. 
 
 18.next
-
+# The .next method returns the next integer after the connected integer. The return value of 18.next is 19. 
 
 
 # SECTION 2: Calling methods on variables assigned to strings.
@@ -38,6 +41,7 @@
 # The puts command prints the return value of the start_with? method (true) to the console.
 first_name = "Jeff"
 puts first_name.start_with?("J")
+
 
 
 
