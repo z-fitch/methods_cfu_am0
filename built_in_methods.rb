@@ -64,10 +64,26 @@ puts job_status.replace("Employed")
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+age = 18
+birth_year = 2004
 
+#The method .lcm finds the least common mutiplier between the variable/integer and the arguemnt.
+#In this case it is finding the lcm of age which is assigned 18 and birth_year which is assigned 2004, The return value would be 6012.
+puts age.lcm(birth_year)
+
+# THe .Round method rounds the integer/the variable to the nearest interger. The return value would be 2000.
+puts birth_year.round(-1)
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+friends = ["Michael", "Ivy","Sara","Anne"]
+#The .shuffle method rearragnes the array in a random order, THe return value will be anything other tahn the orginal order, for example Ivy,Anne,Sara, Michael
+puts friends.shuffle
+
+counting = [2,6,4,7,8,9,5,1,3]
+#The method .sort puts any integers in the array in numeric order starting at 0. The retrun value would be 1,2,3,4,5,6,7,8,9
+puts counting.sort
